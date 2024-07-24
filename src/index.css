@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    font-family: "Karla", sans-serif;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: none !important;
+}
+
+.content-page {
+    top: 60px;
+    position: relative;
+    height: calc(100vh - 60px);
+}
