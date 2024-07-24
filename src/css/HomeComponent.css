@@ -1,4 +1,49 @@
 .home-page {
     background-color: #0b685b;
     height: 100%;
+    color: #fff;
+}
+
+.page-contaiener {
+    height: 100%;
+}
+
+.main-title-one {
+    font-size: 53px;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.quotes-container {
+    text-align: center;
+    width: 61%;
+}
+
+.toggle-container {
+    margin-top: 20px;
+}
+
+.toggle-button {
+    background-color: #fff !important;
+    height: 55px;
+    color: #0b685b !important;
+    border-radius: 22px !important;
+    font-weight: 600 !important;
+
+}
+
+.toggle-button svg {
+    font-size: 24px;
+    color: #fff;
+}
+
+.toggle-button .css-9tj150-MuiButton-endIcon {
+    height: 50px;
+    border-radius: 50%;
+    width: 42px;
+    background-color: #0b685b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
