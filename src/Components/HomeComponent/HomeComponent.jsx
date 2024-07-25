@@ -2,6 +2,10 @@ import { Button } from '@mui/material';
 import '../../css/HomeComponent.css'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 const HomeComponent = () => {
+    const card = [
+        { index: 0, name: 'Pesto' },
+        { index: 1, name: 'Oyster' }
+    ]
     return (
         <div className="home-page">
             <div className='d-flex flex-column justify-content-between align-items-center w-100 page-contaiener pt-5'>
@@ -16,8 +20,12 @@ const HomeComponent = () => {
                         </Button>
                     </div>
                 </div>
-                <div>
-                    Image
+                <div className='home-card-wrapper d-flex justify-content-between'>
+                    {card.map((item, index) => (
+                        <div className='home-card-container'>
+                        </div>
+                    ))}
+
                 </div>
             </div>
 

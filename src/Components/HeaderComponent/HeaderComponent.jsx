@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../css/HeaderComponent.css';
 import headerLogo from '../../assets/Images/darktheme-logo.png';
 import { Button, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 const HeaderComponent = () => {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const isMoreOpen = Boolean(anchorEl);
@@ -15,6 +15,22 @@ const HeaderComponent = () => {
     const menuClose = () => {
         setAnchorEl(null);
     };
+    const location = useLocation();
+    const [url, setUrl] = React.useState('');
+    useEffect(() => {
+        if (location.pathname === '/') {
+            setUrl('')
+            console.log('empty path!');
+        }
+        if (location.pathname === '/explore') {
+            setUrl('explore')
+            console.log('explore path!');
+        }
+        if (location.pathname === '/about') {
+            setUrl('about')
+            console.log('explore path!');
+        }
+    }, [location])
     return (
         <div className="container-fluid">
             <div className="header-wrapper row align-items-center">
@@ -23,19 +39,23 @@ const HeaderComponent = () => {
                 </div>
                 <div className="col-6 col-md-9 header-button-wrapper d-none d-md-flex justify-content-end align-items-center">
                     <ul className="nav-list d-flex">
-                        <li>
+                        <li className={url === '' ? 'current-list' : 'nav-list-items'}>
                             <Link to={'./'} >
                                 Home
                             </Link>
                         </li>
-                        <li>
+                        <li className={url === 'explore' ? 'current-list' : 'nav-list-items'}>
                             <Link to={'./explore'} >
                                 Explore
                             </Link>
                         </li>
-                        <li>About us</li>
-                        <li>Blog</li>
-                        <li>Careers</li>
+                        <li className={url === 'about' ? 'current-list' : 'nav-list-items'}>
+                            <Link to={'./about'} >
+                                About us
+                            </Link>
+                        </li>
+                        {/* <li className={url === '' ? 'current-list' : 'nav-list-items'}>Blog</li>
+                        <li className={url === '' ? 'current-list' : 'nav-list-items'}>Careers</li> */}
                     </ul>
                     <Button variant="contained" className="header-button">
                         Sign Up

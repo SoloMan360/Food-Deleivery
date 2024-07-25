@@ -47,3 +47,15 @@
     justify-content: center;
     align-items: center;
 }
+
+.home-card-wrapper {
+    height: 100%;
+    width: 61%;
+}
+
+.home-card-container {
+    height: 86%;
+    width: 259px;
+    background-color: #3cc08f;
+    border-radius: 10px;
+}
