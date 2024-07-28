@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react';
 import '../../css/HeaderComponent.css';
 import headerLogo from '../../assets/Images/darktheme-logo.png';
+// import headerLogo from '../../assets/Images/logo-normal.png';
 import { Button, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { Link, useLocation } from 'react-router-dom';
+import SignUpDialog from '../DialogBox/SignUpDialog';
 const HeaderComponent = () => {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const isMoreOpen = Boolean(anchorEl);
@@ -17,6 +19,16 @@ const HeaderComponent = () => {
     };
     const location = useLocation();
     const [url, setUrl] = React.useState('');
+    const [isDialogOpen, setIsDialog] = React.useState(false);
+
+    const handleSignupOpen = () => {
+        setIsDialog(true);
+    };
+
+    const handleSignupClose = () => {
+        setIsDialog(false);
+    };
+
     useEffect(() => {
         if (location.pathname === '/') {
             setUrl('')
@@ -57,12 +69,12 @@ const HeaderComponent = () => {
                         {/* <li className={url === '' ? 'current-list' : 'nav-list-items'}>Blog</li>
                         <li className={url === '' ? 'current-list' : 'nav-list-items'}>Careers</li> */}
                     </ul>
-                    <Button variant="contained" className="header-button">
+                    <Button variant="contained" className="header-button" onClick={handleSignupOpen}>
                         Sign Up
                     </Button>
                 </div>
                 <div className="col-6 d-md-none d-flex align-items-center justify-content-end mobile-display-header">
-                    <Button variant="contained" className="header-button">
+                    <Button variant="contained" className="header-button" onClick={handleSignupOpen}>
                         Sign Up
                     </Button>
                     <IconButton aria-label="delete" className='menu-button' onClick={moreClick} >
@@ -77,12 +89,17 @@ const HeaderComponent = () => {
                             'aria-labelledby': 'basic-button',
                         }}
                     >
-                        <MenuItem onClick={menuClose} to={'./'}>Home</MenuItem>
-                        <MenuItem onClick={menuClose} to={'./explore'}>Explore</MenuItem>
+                        <MenuItem onClick={menuClose} component={Link} to="/">Home</MenuItem>
+                        <MenuItem onClick={menuClose} component={Link} to="/explore">Explore</MenuItem>
                         <MenuItem onClick={menuClose}>About us</MenuItem>
                         <MenuItem onClick={menuClose}>Blog</MenuItem>
                         <MenuItem onClick={menuClose}>Careers</MenuItem>
                     </Menu>
+                    <SignUpDialog
+                        handleSignupOpen={handleSignupOpen}
+                        handleSignupClose={handleSignupClose}
+                        isDialogOpen={isDialogOpen}
+                    />
                 </div>
             </div>
         </div>

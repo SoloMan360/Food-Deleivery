@@ -1,0 +1,195 @@
+.signup-container {
+    height: 100%;
+    padding: 0 15px;
+    transition: all 0.5s ease;
+}
+
+.signup-container .slick-slider {
+    height: 85%;
+    border: none !important;
+    outline: none !important;
+}
+
+.signup-container .slick-dots li button:before {
+    color: #fdfdfd !important;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    /* height: 74vh; */
+    max-width: 90vw !important;
+    width: 77vw;
+    background-color: #153833 !important;
+    padding: 15px;
+    color: #fff !important;
+}
+
+.signup-container-one {
+    background-color: #142926;
+    border-radius: 10px;
+
+}
+
+.signup-page .signup-container-one {
+    animation: signupImg 2s ease 0s 1 normal forwards;
+}
+
+.signup-page .signup-container-two {
+    animation: signupField 2s ease 0s 1 normal forwards;
+}
+
+@keyframes signupImg {
+    0% {
+        opacity: 0;
+        transform: translateX(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes signupField {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.login-page .signup-container-one {
+    animation: loginImg 2s ease 0s 1 normal forwards;
+}
+
+.login-page .signup-container-two {
+    animation: loginField 2s ease 0s 1 normal forwards;
+}
+
+@keyframes loginImg {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes loginField {
+    0% {
+        opacity: 0;
+        transform: translateX(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.sigunp-content {
+    padding: 15px 15px 15px 8%;
+}
+
+.sigunp-content h3 {
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.login-text {
+    color: #009cff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-here-msg {
+    text-align: right;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.sigunp-content label {
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.field-container {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.field-container input {
+    background-color: #142926;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    opacity: 0.8;
+    width: 100%;
+    caret-color: #fff;
+    color: #fff;
+}
+
+.firstname-field,
+.lastname-field {
+    flex: 1;
+}
+
+.checkbox-container .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+    padding: 0 !important;
+}
+
+.checkbox-container svg {
+    color: #9b9b9b;
+}
+
+.agree-message {
+    margin-left: 6px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.term-message {
+    color: #009cff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.google-button,
+.fb-button {
+    border-radius: 15px !important;
+    border-color: #727272 !important;
+    color: #ffffff !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    gap: 20%;
+    display: flex;
+    justify-content: start !important;
+}
+
+.google-button img,
+.fb-button img {
+    height: 26px;
+    object-fit: cover;
+    width: 26px;
+}
+
+.divider {
+    height: 2px;
+    border: 1px solid #fff;
+    flex: 0 0 44%;
+}
+
+.or-msg {
+    flex: 0 0 12%;
+    text-align: center;
+}
