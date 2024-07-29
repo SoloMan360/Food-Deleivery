@@ -20,11 +20,45 @@ const SignUpDialog = ({ handleSignupOpen, handleSignupClose, isDialogOpen }) => 
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 20000000,
+        autoplaySpeed: 2000,
     };
     const handleLoginToggle = () => {
         setIsLoginPage(!isLoginPage);
+        setloginChecked(false)
+        setsignupChecked(false)
     };
+    const users = [
+        {
+            username: 'user1',
+            password: 'password1'
+        },
+        {
+            username: 'user2',
+            password: 'password2'
+        }
+    ];
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+    const [message, setMessage] = useState('');
+    const handleLoginCheck = () => {
+        const user = users.find((user) => user.username === username && user.password === password)
+        if (user) {
+            setMessage('Login Successful')
+        }
+        else {
+            setMessage('Invalid username or password')
+        }
+    }
+    const [loginChecked, setloginChecked] = useState(false);
+    const loginCheckbox = () => {
+        setloginChecked(!loginChecked)
+
+    }
+    const [signupChecked, setsignupChecked] = useState(false);
+    const signupCheckbox = () => {
+        setsignupChecked(!signupChecked)
+    }
+
     return (
         <div>
             <Dialog
@@ -34,71 +68,6 @@ const SignUpDialog = ({ handleSignupOpen, handleSignupClose, isDialogOpen }) => 
                 onClose={handleSignupClose}
                 aria-describedby="alert-dialog-slide-description"
             >
-                {/* <div>
-                    <Dialog
-                        disableBackdropClick
-                        open={isDialogOpen}
-                        keepMounted
-                        onClose={handleSignupClose}
-                        aria-describedby="alert-dialog-slide-description"
-                        className={`signup-dialog ${isLoginPage ? 'login-page' : 'signup-page'}`}
-                    >
-                        <div className="signup-container">
-                            <div className="signup-slider-container">
-                                <Slider {...settings}>
-                                    <div>
-                                        <img src={birayani} alt="Image 1" style={{ width: '100%' }} />
-                                    </div>
-                                    <div>
-                                        <img src={meals} alt="Image 2" style={{ width: '100%' }} />
-                                    </div>
-                                    <div>
-                                        <img src={pizza} alt="Image 3" style={{ width: '100%' }} />
-                                    </div>
-                                </Slider>
-                            </div>
-                            <div className={`signup-content ${isLoginPage ? 'slide-out' : 'slide-in'}`}>
-                                <div className='login-here-msg'>
-                                    <span>Already have an account? </span> <span className='login-text' onClick={handleLoginToggle}>Login</span>
-                                </div>
-                                <div className='signup-form'>
-                                    <h3>Create account</h3>
-                                    <div className='field-container'>
-                                        <label htmlFor="">Username</label>
-                                        <input type="text" />
-                                    </div>
-                                    <div className='field-container'>
-                                        <label htmlFor="">Lastname</label>
-                                        <input type="text" />
-                                    </div>
-                                    <div className='field-container'>
-                                        <label htmlFor="">Email</label>
-                                        <input type="text" />
-                                    </div>
-                                    <div className='field-container'>
-                                        <label htmlFor="">Enter password</label>
-                                        <input type="password" />
-                                    </div>
-                                    <div className='field-container'>
-                                        <label htmlFor="">Confirm password</label>
-                                        <input type="password" />
-                                    </div>
-                                    <div className='checkbox-container'>
-                                        <Checkbox />
-                                        <span className='agree-message'><span style={{ opacity: '0.6' }}> I agree to the</span> <span className='term-message'>Terms & Conditions</span></span>
-                                    </div>
-                                    <Button variant="contained" className="create-account-btn">Create account</Button>
-                                    <Button variant="outlined" className="google-button">
-                                        <img src={ggImage} alt="google-image" /><span>Continue with Google</span>
-                                    </Button>
-                                    <Button variant="outlined" className="fb-button">
-                                        <FacebookIcon /><span>Continue with Facebook</span>
-                                    </Button>
-                                </div>
-                            </div>
-                        </div>
-                    </Dialog>
-                </div> */}
                 {isLoginPage === false ?
                     <div className={`signup-container row ${isLoginPage ? 'login-page' : 'signup-page'}`}>
                         <div className="signup-container-one col-md-6">
@@ -157,11 +126,11 @@ const SignUpDialog = ({ handleSignupOpen, handleSignupClose, isDialogOpen }) => 
                                     </div>
                                 </div>
                                 <div className='mt-3 checkbox-container'>
-                                    <Checkbox />
+                                    <Checkbox onChange={loginCheckbox} />
                                     <span className='agree-message'><span style={{ opacity: '0.6' }}> I agree to the</span> <span className='term-message'>Terms & Conditions</span></span>
                                 </div>
-                                <div className="mt-4 w-100">
-                                    <Button variant="contained" className="w-100"> Create account</Button>
+                                <div className="mt-4 w-100 login-btn-container">
+                                    <Button variant="contained" className="w-100" disabled={!loginChecked}> Create account</Button>
                                 </div>
                                 <div className="mt-4 w-100 d-flex flex-row align-items-center">
                                     <div className='divider'></div>
@@ -192,23 +161,24 @@ const SignUpDialog = ({ handleSignupOpen, handleSignupClose, isDialogOpen }) => 
                                     <div className='firstname-field'>
                                         <label htmlFor="">Username</label>
                                         <br />
-                                        <input type="text" />
+                                        <input type="text" onChange={(e) => setUsername(e.target.value)} />
                                     </div>
                                 </div>
                                 <div className='mt-2 field-container'>
                                     <div className='firstname-field'>
-                                        <label htmlFor="">Enter password</label>
+                                        <label htmlFor="">Password</label>
                                         <br />
-                                        <input type="password" />
+                                        <input type="password" onChange={(e) => setPassword(e.target.value)} />
                                     </div>
                                 </div>
                                 <div className='mt-3 checkbox-container'>
-                                    <Checkbox />
+                                    <Checkbox onChange={signupCheckbox} />
                                     <span className='agree-message'><span style={{ opacity: '0.6' }}> I agree to the</span> <span className='term-message'>Terms & Conditions</span></span>
                                 </div>
-                                <div className="mt-4 w-100">
-                                    <Button variant="contained" className="w-100"> Login</Button>
+                                <div className="mt-4 w-100 login-btn-container">
+                                    <Button variant="contained" className="w-100" onClick={handleLoginCheck} disabled={!signupChecked}> Login</Button>
                                 </div>
+                                {message && <p className='error-message'>{message}</p>}
                                 <div className="mt-4 w-100 d-flex flex-row align-items-center">
                                     <div className='divider'></div>
                                     <div className='or-msg'>or </div>

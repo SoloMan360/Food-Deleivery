@@ -193,3 +193,42 @@
     flex: 0 0 12%;
     text-align: center;
 }
+
+.error-message {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #ff9393;
+}
+
+.login-btn-container .css-sghohy-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+    color: #d5cdcdc2 !important;
+    background-color: #aed6e21f !important;
+}
+
+@media screen and (max-width: 860px) {
+    .sigunp-content {
+        padding: 5px 0px 5px 0%;
+    }
+
+    .login-page .signup-container-two {
+        padding: 0px !important;
+    }
+
+    .sigunp-content h3 {
+        font-size: 21px;
+    }
+
+    .login-page .signup-container-one {
+        margin-top: 7px;
+    }
+
+    .signup-page .signup-container-two {
+        margin-top: 44px;
+        padding: 0 !important;
+    }
+
+    .field-container {
+        display: block !important;
+        
+    }
+}
