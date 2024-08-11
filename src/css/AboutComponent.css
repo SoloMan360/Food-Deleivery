@@ -1,0 +1,225 @@
+.about-page {
+    position: relative;
+    top: 7vh;
+    height: 93vh;
+    overflow: auto;
+    background-color: #fffab8;
+}
+
+.image-container-about {
+    height: 442px;
+    position: relative;
+}
+
+.main-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.secondary-image {
+    height: 335px;
+    border-radius: 10px;
+    margin-top: 8%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.secondary-image-container {
+    position: relative;
+}
+
+.secondary-text-about {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.img-text-about {
+    position: absolute;
+    bottom: 11%;
+    left: 9%;
+}
+
+.img-text-about h4 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.secondary-text-about h4 {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.secondary-text-one {
+    color: #fff;
+}
+
+.secondary-text-two {
+    color: #00ffdb;
+}
+
+.img-text-about .text-one {
+    color: #00ffdb;
+}
+
+.img-text-about .text-two {
+    color: #fff;
+}
+
+.content-container-about {
+    width: 85%;
+    padding: 20px 45px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #f7f3cb;
+}
+
+.content-container-about .text-one {
+    width: 52%;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.content-container-about .text-two {
+    width: 48%;
+    float: right;
+    color: #001e55;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+
+}
+
+.teams-container {
+    text-align: center;
+    font-weight: 600;
+    color: #013d35;
+}
+
+.teams-text-two {
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.teams-wrapper {
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.teams-profile {
+    width: 300px;
+}
+
+.profile-content-one img {
+    height: 80px;
+    object-fit: cover;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.team-container-content {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.team-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #013d35;
+
+}
+
+.team-desgination,
+.team-project {
+    font-size: 16px;
+    font-weight: 500;
+    color: #013d35;
+}
+
+.icons-container {
+    gap: 10px;
+}
+
+.icons-container svg {
+    color: #00362f;
+    cursor: pointer;
+
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slide-in-left {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 1.5s ease-out;
+}
+
+.slide-in-left.visible,
+.slide-in-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.slide-in-right {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 1.5s ease-out;
+}
+
+.slide-in-top {
+    opacity: 0;
+    transform: translatey(-50px);
+    transition: all 1.5s ease-out;
+}
+
+.slide-in-bottom {
+    opacity: 0;
+    transform: translatey(50px);
+    transition: all 1.5s ease-out;
+}
+
+.slide-in-top.visible,
+.slide-in-bottom.visible {
+    opacity: 1;
+    transform: translatey(0);
+}
+
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .image-container-about {
+        height: 246px;
+    }
+
+    .img-text-about h4 {
+        font-size: 29px;
+    }
+
+    .content-container-about .text-one {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .content-container-about .text-two {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .content-container-about {
+        width: 93%;
+    }
+
+    .secondary-text-about h4 {
+        font-size: 22px;
+    }
+}

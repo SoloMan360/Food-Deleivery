@@ -1,0 +1,1438 @@
+{
+    "productVegetable": [
+        {
+            "name": "Red Capcicum",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiNqEVTU5wGdLyh068sTIRdSTAQvvFVlhmga6X2xhpaLghy08t&s",
+            "rating": "4.4",
+            "price": "$20.20",
+            "label": "Hot",
+            "users": 24
+        },
+        {
+            "name": "Green Capsicum",
+            "img": "CapsicumGreen",
+            "rating": "4.2",
+            "price": "$18.50",
+            "label": "New",
+            "users": 18
+        },
+        {
+            "name": "Yellow Capsicum",
+            "img": "CapsicumYellow",
+            "rating": "4.0",
+            "price": "$22.00",
+            "label": "Out of Stock",
+            "users": 12
+        },
+        {
+            "name": "Orange Capsicum",
+            "img": "CapsicumOrange",
+            "rating": "4.5",
+            "price": "$21.00",
+            "label": "10% off",
+            "users": 30
+        },
+        {
+            "name": "Purple Capsicum",
+            "img": "CapsicumPurple",
+            "rating": "4.3",
+            "price": "$23.50",
+            "label": "Limited",
+            "users": 20
+        },
+        {
+            "name": "Red Tomato",
+            "img": "Tomato",
+            "rating": "4.6",
+            "price": "$15.00",
+            "label": "Hot",
+            "users": 35
+        },
+        {
+            "name": "Green Tomato",
+            "img": "TomatoGreen",
+            "rating": "4.1",
+            "price": "$16.00",
+            "label": "New",
+            "users": 25
+        },
+        {
+            "name": "Yellow Tomato",
+            "img": "TomatoYellow",
+            "rating": "4.7",
+            "price": "$19.00",
+            "label": "Out of Stock",
+            "users": 15
+        },
+        {
+            "name": "Cherry Tomato",
+            "img": "TomatoCherry",
+            "rating": "4.8",
+            "price": "$25.00",
+            "label": "10% off",
+            "users": 40
+        },
+        {
+            "name": "Heirloom Tomato",
+            "img": "TomatoHeirloom",
+            "rating": "4.9",
+            "price": "$30.00",
+            "label": "Limited",
+            "users": 22
+        },
+        {
+            "name": "Red Onion",
+            "img": "OnionRed",
+            "rating": "4.3",
+            "price": "$10.50",
+            "label": "Hot",
+            "users": 28
+        },
+        {
+            "name": "Yellow Onion",
+            "img": "OnionYellow",
+            "rating": "4.4",
+            "price": "$12.00",
+            "label": "New",
+            "users": 19
+        },
+        {
+            "name": "White Onion",
+            "img": "OnionWhite",
+            "rating": "4.1",
+            "price": "$11.00",
+            "label": "Out of Stock",
+            "users": 10
+        },
+        {
+            "name": "Green Onion",
+            "img": "OnionGreen",
+            "rating": "4.5",
+            "price": "$14.00",
+            "label": "10% off",
+            "users": 33
+        },
+        {
+            "name": "Purple Onion",
+            "img": "OnionPurple",
+            "rating": "4.6",
+            "price": "$15.50",
+            "label": "Limited",
+            "users": 27
+        },
+        {
+            "name": "Garlic",
+            "img": "Garlic",
+            "rating": "4.7",
+            "price": "$9.00",
+            "label": "Hot",
+            "users": 31
+        },
+        {
+            "name": "Ginger",
+            "img": "Ginger",
+            "rating": "4.8",
+            "price": "$8.50",
+            "label": "New",
+            "users": 23
+        },
+        {
+            "name": "Carrot",
+            "img": "Carrot",
+            "rating": "4.9",
+            "price": "$7.00",
+            "label": "Out of Stock",
+            "users": 14
+        },
+        {
+            "name": "Beetroot",
+            "img": "Beetroot",
+            "rating": "4.5",
+            "price": "$6.00",
+            "label": "10% off",
+            "users": 29
+        },
+        {
+            "name": "Potato",
+            "img": "Potato",
+            "rating": "4.4",
+            "price": "$5.50",
+            "label": "Limited",
+            "users": 16
+        }
+    ],
+    "cheeseProducts": [
+        {
+            "name": "Slice Cheese",
+            "img": "slice.jpg",
+            "rating": "4.4",
+            "price": "$20.20",
+            "label": "Hot",
+            "users": 24
+        },
+        {
+            "name": "Cheddar Cheese",
+            "img": "cheddar.jpg",
+            "rating": "4.6",
+            "price": "$22.30",
+            "label": "New",
+            "users": 32
+        },
+        {
+            "name": "Swiss Cheese",
+            "img": "swiss.jpg",
+            "rating": "4.7",
+            "price": "$21.50",
+            "label": "Out of Stock",
+            "users": 28
+        },
+        {
+            "name": "Mozzarella Cheese",
+            "img": "mozzarella.jpg",
+            "rating": "4.3",
+            "price": "$19.99",
+            "label": "10% off",
+            "users": 50
+        },
+        {
+            "name": "Gouda Cheese",
+            "img": "gouda.jpg",
+            "rating": "4.5",
+            "price": "$23.00",
+            "label": "Limited",
+            "users": 35
+        },
+        {
+            "name": "Parmesan Cheese",
+            "img": "parmesan.jpg",
+            "rating": "4.8",
+            "price": "$25.00",
+            "label": "Hot",
+            "users": 22
+        },
+        {
+            "name": "Brie Cheese",
+            "img": "brie.jpg",
+            "rating": "4.2",
+            "price": "$18.75",
+            "label": "New",
+            "users": 15
+        },
+        {
+            "name": "Ricotta Cheese",
+            "img": "ricotta.jpg",
+            "rating": "4.4",
+            "price": "$17.00",
+            "label": "Out of Stock",
+            "users": 29
+        },
+        {
+            "name": "Feta Cheese",
+            "img": "feta.jpg",
+            "rating": "4.6",
+            "price": "$21.00",
+            "label": "10% off",
+            "users": 41
+        },
+        {
+            "name": "Cream Cheese",
+            "img": "cream.jpg",
+            "rating": "4.1",
+            "price": "$16.00",
+            "label": "Limited",
+            "users": 18
+        },
+        {
+            "name": "Blue Cheese",
+            "img": "blue.jpg",
+            "rating": "4.7",
+            "price": "$24.50",
+            "label": "Hot",
+            "users": 23
+        },
+        {
+            "name": "Colby Cheese",
+            "img": "colby.jpg",
+            "rating": "4.3",
+            "price": "$20.00",
+            "label": "New",
+            "users": 27
+        },
+        {
+            "name": "Havarti Cheese",
+            "img": "havarti.jpg",
+            "rating": "4.5",
+            "price": "$22.50",
+            "label": "Out of Stock",
+            "users": 30
+        },
+        {
+            "name": "Monterey Jack Cheese",
+            "img": "monterey.jpg",
+            "rating": "4.4",
+            "price": "$19.75",
+            "label": "10% off",
+            "users": 40
+        },
+        {
+            "name": "Asiago Cheese",
+            "img": "asiago.jpg",
+            "rating": "4.6",
+            "price": "$23.75",
+            "label": "Limited",
+            "users": 33
+        }
+    ],
+    "EggsProducts": [
+        {
+            "name": "Duck Egg",
+            "img": "salmon.jpg",
+            "rating": "4.4",
+            "price": "$20.20",
+            "label": "Hot",
+            "users": 24
+        },
+        {
+            "name": "Chicken Egg",
+            "img": "chicken.jpg",
+            "rating": "4.2",
+            "price": "$15.00",
+            "label": "New",
+            "users": 18
+        },
+        {
+            "name": "Quail Egg",
+            "img": "quail.jpg",
+            "rating": "4.7",
+            "price": "$25.00",
+            "label": "Out of Stock",
+            "users": 30
+        },
+        {
+            "name": "Goose Egg",
+            "img": "goose.jpg",
+            "rating": "4.5",
+            "price": "$18.50",
+            "label": "10% off",
+            "users": 12
+        },
+        {
+            "name": "Turkey Egg",
+            "img": "turkey.jpg",
+            "rating": "4.3",
+            "price": "$22.00",
+            "label": "Limited",
+            "users": 16
+        },
+        {
+            "name": "Ostrich Egg",
+            "img": "ostrich.jpg",
+            "rating": "4.8",
+            "price": "$35.00",
+            "label": "Hot",
+            "users": 40
+        },
+        {
+            "name": "Emu Egg",
+            "img": "emu.jpg",
+            "rating": "4.6",
+            "price": "$28.00",
+            "label": "New",
+            "users": 22
+        },
+        {
+            "name": "Pheasant Egg",
+            "img": "pheasant.jpg",
+            "rating": "4.1",
+            "price": "$17.50",
+            "label": "Out of Stock",
+            "users": 15
+        },
+        {
+            "name": "Gull Egg",
+            "img": "gull.jpg",
+            "rating": "4.9",
+            "price": "$30.00",
+            "label": "10% off",
+            "users": 35
+        },
+        {
+            "name": "Partridge Egg",
+            "img": "partridge.jpg",
+            "rating": "4.0",
+            "price": "$19.00",
+            "label": "Limited",
+            "users": 10
+        }
+    ],
+    "seaFoodProducts": [
+        {
+            "name": "Salmon",
+            "img": "salmon.jpg",
+            "rating": "4.4",
+            "price": "$20.20",
+            "label": "Hot",
+            "users": 24
+        },
+        {
+            "name": "Tuna",
+            "img": "tuna.jpg",
+            "rating": "4.6",
+            "price": "$22.50",
+            "label": "New",
+            "users": 18
+        },
+        {
+            "name": "Cod",
+            "img": "cod.jpg",
+            "rating": "4.2",
+            "price": "$18.00",
+            "label": "Out of Stock",
+            "users": 12
+        },
+        {
+            "name": "Shrimp",
+            "img": "shrimp.jpg",
+            "rating": "4.7",
+            "price": "$25.00",
+            "label": "10% off",
+            "users": 30
+        },
+        {
+            "name": "Lobster",
+            "img": "lobster.jpg",
+            "rating": "4.9",
+            "price": "$30.00",
+            "label": "Limited",
+            "users": 20
+        },
+        {
+            "name": "Crab",
+            "img": "crab.jpg",
+            "rating": "4.5",
+            "price": "$28.00",
+            "label": "Hot",
+            "users": 28
+        },
+        {
+            "name": "Oyster",
+            "img": "oyster.jpg",
+            "rating": "4.3",
+            "price": "$15.00",
+            "label": "New",
+            "users": 25
+        },
+        {
+            "name": "Clams",
+            "img": "clams.jpg",
+            "rating": "4.1",
+            "price": "$12.50",
+            "label": "Out of Stock",
+            "users": 10
+        },
+        {
+            "name": "Mussels",
+            "img": "mussels.jpg",
+            "rating": "4.4",
+            "price": "$17.00",
+            "label": "10% off",
+            "users": 29
+        },
+        {
+            "name": "Scallops",
+            "img": "scallops.jpg",
+            "rating": "4.8",
+            "price": "$20.00",
+            "label": "Limited",
+            "users": 22
+        },
+        {
+            "name": "Tilapia",
+            "img": "tilapia.jpg",
+            "rating": "4.2",
+            "price": "$10.00",
+            "label": "Hot",
+            "users": 16
+        },
+        {
+            "name": "Halibut",
+            "img": "halibut.jpg",
+            "rating": "4.6",
+            "price": "$26.00",
+            "label": "New",
+            "users": 23
+        },
+        {
+            "name": "Herring",
+            "img": "herring.jpg",
+            "rating": "4.0",
+            "price": "$8.50",
+            "label": "Out of Stock",
+            "users": 14
+        },
+        {
+            "name": "Mackerel",
+            "img": "mackerel.jpg",
+            "rating": "4.5",
+            "price": "$14.00",
+            "label": "10% off",
+            "users": 33
+        },
+        {
+            "name": "Sardines",
+            "img": "sardines.jpg",
+            "rating": "4.3",
+            "price": "$5.00",
+            "label": "Limited",
+            "users": 27
+        },
+        {
+            "name": "Anchovies",
+            "img": "anchovies.jpg",
+            "rating": "4.1",
+            "price": "$6.00",
+            "label": "Hot",
+            "users": 31
+        },
+        {
+            "name": "Barramundi",
+            "img": "barramundi.jpg",
+            "rating": "4.7",
+            "price": "$24.00",
+            "label": "New",
+            "users": 19
+        },
+        {
+            "name": "Catfish",
+            "img": "catfish.jpg",
+            "rating": "4.2",
+            "price": "$12.00",
+            "label": "Out of Stock",
+            "users": 15
+        },
+        {
+            "name": "Eel",
+            "img": "eel.jpg",
+            "rating": "4.4",
+            "price": "$15.50",
+            "label": "10% off",
+            "users": 20
+        },
+        {
+            "name": "Kingfish",
+            "img": "kingfish.jpg",
+            "rating": "4.8",
+            "price": "$28.00",
+            "label": "Limited",
+            "users": 24
+        }
+    ],
+    "bakingProducts": [
+        {
+            "name": "Black Forest",
+            "img": "forest.jpg",
+            "rating": "4.4",
+            "price": "$20.20",
+            "label": "Hot",
+            "users": 24
+        },
+        {
+            "name": "Cheesecake",
+            "img": "cheesecake.jpg",
+            "rating": "4.6",
+            "price": "$25.50",
+            "label": "New",
+            "users": 18
+        },
+        {
+            "name": "Red Velvet",
+            "img": "velvet.jpg",
+            "rating": "4.8",
+            "price": "$22.00",
+            "label": "Out of Stock",
+            "users": 30
+        },
+        {
+            "name": "Carrot Cake",
+            "img": "carrot.jpg",
+            "rating": "4.5",
+            "price": "$18.75",
+            "label": "10% off",
+            "users": 15
+        },
+        {
+            "name": "Lemon Drizzle",
+            "img": "lemon.jpg",
+            "rating": "4.3",
+            "price": "$21.00",
+            "label": "Limited",
+            "users": 20
+        },
+        {
+            "name": "Tiramisu",
+            "img": "tiramisu.jpg",
+            "rating": "4.7",
+            "price": "$27.00",
+            "label": "Hot",
+            "users": 28
+        },
+        {
+            "name": "Apple Pie",
+            "img": "apple.jpg",
+            "rating": "4.2",
+            "price": "$19.00",
+            "label": "New",
+            "users": 12
+        },
+        {
+            "name": "Chocolate Fudge",
+            "img": "fudge.jpg",
+            "rating": "4.9",
+            "price": "$24.50",
+            "label": "Out of Stock",
+            "users": 22
+        },
+        {
+            "name": "Banana Bread",
+            "img": "banana.jpg",
+            "rating": "4.4",
+            "price": "$17.75",
+            "label": "10% off",
+            "users": 16
+        },
+        {
+            "name": "Pecan Pie",
+            "img": "pecan.jpg",
+            "rating": "4.6",
+            "price": "$23.00",
+            "label": "Limited",
+            "users": 25
+        },
+        {
+            "name": "Strawberry Shortcake",
+            "img": "shortcake.jpg",
+            "rating": "4.5",
+            "price": "$26.00",
+            "label": "Hot",
+            "users": 29
+        },
+        {
+            "name": "Peach Cobbler",
+            "img": "peach.jpg",
+            "rating": "4.3",
+            "price": "$22.75",
+            "label": "New",
+            "users": 14
+        },
+        {
+            "name": "German Chocolate Cake",
+            "img": "german.jpg",
+            "rating": "4.8",
+            "price": "$30.00",
+            "label": "Out of Stock",
+            "users": 35
+        },
+        {
+            "name": "Pumpkin Pie",
+            "img": "pumpkin.jpg",
+            "rating": "4.2",
+            "price": "$19.50",
+            "label": "10% off",
+            "users": 18
+        },
+        {
+            "name": "Creme Brulee",
+            "img": "brulee.jpg",
+            "rating": "4.7",
+            "price": "$28.00",
+            "label": "Limited",
+            "users": 27
+        },
+        {
+            "name": "Raspberry Tart",
+            "img": "raspberry.jpg",
+            "rating": "4.4",
+            "price": "$21.50",
+            "label": "Hot",
+            "users": 31
+        },
+        {
+            "name": "Fig Cake",
+            "img": "fig.jpg",
+            "rating": "4.6",
+            "price": "$24.00",
+            "label": "New",
+            "users": 19
+        },
+        {
+            "name": "Mango Mousse",
+            "img": "mango.jpg",
+            "rating": "4.9",
+            "price": "$29.00",
+            "label": "Out of Stock",
+            "users": 26
+        },
+        {
+            "name": "Almond Biscotti",
+            "img": "biscotti.jpg",
+            "rating": "4.5",
+            "price": "$15.00",
+            "label": "10% off",
+            "users": 21
+        },
+        {
+            "name": "Blueberry Muffin",
+            "img": "blueberry.jpg",
+            "rating": "4.3",
+            "price": "$16.50",
+            "label": "Limited",
+            "users": 23
+        },
+        {
+            "name": "Coconut Cake",
+            "img": "coconut.jpg",
+            "rating": "4.6",
+            "price": "$20.75",
+            "label": "Hot",
+            "users": 30
+        }
+    ],
+    "fruitProducts": [
+        {
+            "name": "Dragon Fruit",
+            "img": "dragon.jpg",
+            "rating": "4.7",
+            "price": "$22.50",
+            "label": "New",
+            "users": 18
+        },
+        {
+            "name": "Kiwi",
+            "img": "kiwi.jpg",
+            "rating": "4.2",
+            "price": "$15.00",
+            "label": "Out of Stock",
+            "users": 12
+        },
+        {
+            "name": "Pineapple",
+            "img": "pineapple.jpg",
+            "rating": "4.9",
+            "price": "$27.00",
+            "label": "10% off",
+            "users": 30
+        },
+        {
+            "name": "Grapes",
+            "img": "grapes.jpg",
+            "rating": "4.6",
+            "price": "$20.00",
+            "label": "Limited",
+            "users": 25
+        },
+        {
+            "name": "Strawberry",
+            "img": "strawberry.jpg",
+            "rating": "4.8",
+            "price": "$18.75",
+            "label": "Hot",
+            "users": 20
+        },
+        {
+            "name": "Watermelon",
+            "img": "watermelon.jpg",
+            "rating": "4.3",
+            "price": "$21.00",
+            "label": "New",
+            "users": 15
+        },
+        {
+            "name": "Orange",
+            "img": "orange.jpg",
+            "rating": "4.5",
+            "price": "$16.50",
+            "label": "Out of Stock",
+            "users": 10
+        },
+        {
+            "name": "Peach",
+            "img": "peach.jpg",
+            "rating": "4.4",
+            "price": "$23.50",
+            "label": "10% off",
+            "users": 28
+        },
+        {
+            "name": "Blueberry",
+            "img": "blueberry.jpg",
+            "rating": "4.1",
+            "price": "$12.50",
+            "label": "Limited",
+            "users": 22
+        },
+        {
+            "name": "Cherry",
+            "img": "cherry.jpg",
+            "rating": "4.7",
+            "price": "$25.00",
+            "label": "Hot",
+            "users": 19
+        },
+        {
+            "name": "Blackberry",
+            "img": "blackberry.jpg",
+            "rating": "4.2",
+            "price": "$18.00",
+            "label": "New",
+            "users": 14
+        },
+        {
+            "name": "Mango",
+            "img": "mango.jpg",
+            "rating": "4.8",
+            "price": "$30.00",
+            "label": "Out of Stock",
+            "users": 35
+        },
+        {
+            "name": "Raspberry",
+            "img": "raspberry.jpg",
+            "rating": "4.3",
+            "price": "$14.00",
+            "label": "10% off",
+            "users": 27
+        },
+        {
+            "name": "Pomegranate",
+            "img": "pomegranate.jpg",
+            "rating": "4.5",
+            "price": "$26.00",
+            "label": "Limited",
+            "users": 29
+        },
+        {
+            "name": "Lemon",
+            "img": "lemon.jpg",
+            "rating": "4.9",
+            "price": "$19.00",
+            "label": "Hot",
+            "users": 32
+        },
+        {
+            "name": "Banana",
+            "img": "banana.jpg",
+            "rating": "4.1",
+            "price": "$13.00",
+            "label": "New",
+            "users": 16
+        },
+        {
+            "name": "Cantaloupe",
+            "img": "cantaloupe.jpg",
+            "rating": "4.6",
+            "price": "$20.75",
+            "label": "Out of Stock",
+            "users": 18
+        },
+        {
+            "name": "Avocado",
+            "img": "avocado.jpg",
+            "rating": "4.4",
+            "price": "$21.50",
+            "label": "10% off",
+            "users": 26
+        },
+        {
+            "name": "Grapefruit",
+            "img": "grapefruit.jpg",
+            "rating": "4.7",
+            "price": "$28.00",
+            "label": "Limited",
+            "users": 31
+        },
+        {
+            "name": "Apple",
+            "img": "apple.jpg",
+            "rating": "4.4",
+            "price": "$20.20",
+            "label": "Hot",
+            "users": 24
+        }
+    ],
+    "meatProducts": [
+        {
+            "name": "Chicken",
+            "img": "chicken.jpg",
+            "rating": "4.7",
+            "price": "$22.50",
+            "label": "New",
+            "users": 18
+        },
+        {
+            "name": "Beef Steak",
+            "img": "beef.jpg",
+            "rating": "4.8",
+            "price": "$25.00",
+            "label": "Hot",
+            "users": 30
+        },
+        {
+            "name": "Pork Ribs",
+            "img": "pork.jpg",
+            "rating": "4.5",
+            "price": "$20.75",
+            "label": "10% off",
+            "users": 22
+        },
+        {
+            "name": "Lamb Chops",
+            "img": "lamb.jpg",
+            "rating": "4.6",
+            "price": "$30.00",
+            "label": "Limited",
+            "users": 27
+        },
+        {
+            "name": "Turkey Breast",
+            "img": "turkey.jpg",
+            "rating": "4.4",
+            "price": "$18.50",
+            "label": "New",
+            "users": 20
+        },
+        {
+            "name": "Duck Breast",
+            "img": "duck.jpg",
+            "rating": "4.9",
+            "price": "$28.00",
+            "label": "Hot",
+            "users": 25
+        },
+        {
+            "name": "Ground Beef",
+            "img": "groundbeef.jpg",
+            "rating": "4.3",
+            "price": "$15.00",
+            "label": "Out of Stock",
+            "users": 12
+        },
+        {
+            "name": "Veal Cutlets",
+            "img": "veal.jpg",
+            "rating": "4.7",
+            "price": "$26.00",
+            "label": "10% off",
+            "users": 16
+        },
+        {
+            "name": "Pork Tenderloin",
+            "img": "tenderloin.jpg",
+            "rating": "4.6",
+            "price": "$22.00",
+            "label": "Limited",
+            "users": 19
+        },
+        {
+            "name": "Beef Brisket",
+            "img": "brisket.jpg",
+            "rating": "4.5",
+            "price": "$24.00",
+            "label": "New",
+            "users": 23
+        },
+        {
+            "name": "Chicken Thighs",
+            "img": "chickenthighs.jpg",
+            "rating": "4.8",
+            "price": "$19.50",
+            "label": "Hot",
+            "users": 28
+        },
+        {
+            "name": "Lamb Shanks",
+            "img": "lambshanks.jpg",
+            "rating": "4.4",
+            "price": "$27.50",
+            "label": "Out of Stock",
+            "users": 15
+        },
+        {
+            "name": "Duck Legs",
+            "img": "ducklegs.jpg",
+            "rating": "4.9",
+            "price": "$29.00",
+            "label": "10% off",
+            "users": 20
+        },
+        {
+            "name": "Pork Sausages",
+            "img": "sausages.jpg",
+            "rating": "4.3",
+            "price": "$16.75",
+            "label": "Limited",
+            "users": 18
+        },
+        {
+            "name": "Beef Liver",
+            "img": "liver.jpg",
+            "rating": "4.6",
+            "price": "$12.50",
+            "label": "New",
+            "users": 22
+        },
+        {
+            "name": "Chicken Wings",
+            "img": "wings.jpg",
+            "rating": "4.5",
+            "price": "$14.00",
+            "label": "Hot",
+            "users": 30
+        },
+        {
+            "name": "Lamb Ribs",
+            "img": "lambribs.jpg",
+            "rating": "4.7",
+            "price": "$29.50",
+            "label": "10% off",
+            "users": 16
+        },
+        {
+            "name": "Beef Meatballs",
+            "img": "meatballs.jpg",
+            "rating": "4.4",
+            "price": "$18.00",
+            "label": "Limited",
+            "users": 25
+        },
+        {
+            "name": "Turkey Drumsticks",
+            "img": "drumsticks.jpg",
+            "rating": "4.8",
+            "price": "$21.75",
+            "label": "Hot",
+            "users": 22
+        },
+        {
+            "name": "Pork Chops",
+            "img": "porkchops.jpg",
+            "rating": "4.2",
+            "price": "$19.00",
+            "label": "Out of Stock",
+            "users": 14
+        },
+        {
+            "name": "Chicken Breast",
+            "img": "chickenbreast.jpg",
+            "rating": "4.6",
+            "price": "$20.00",
+            "label": "10% off",
+            "users": 30
+        }
+    ],
+    "milkProducts": [
+        {
+            "name": "Cow Milk",
+            "img": "cowmilk.jpg",
+            "rating": "4.7",
+            "price": "$22.50",
+            "label": "New",
+            "users": 18
+        },
+        {
+            "name": "Almond Milk",
+            "img": "almondmilk.jpg",
+            "rating": "4.5",
+            "price": "$18.00",
+            "label": "Hot",
+            "users": 25
+        },
+        {
+            "name": "Soy Milk",
+            "img": "soymilk.jpg",
+            "rating": "4.3",
+            "price": "$15.00",
+            "label": "10% off",
+            "users": 20
+        },
+        {
+            "name": "Oat Milk",
+            "img": "oatmilk.jpg",
+            "rating": "4.6",
+            "price": "$19.50",
+            "label": "Limited",
+            "users": 22
+        },
+        {
+            "name": "Rice Milk",
+            "img": "ricemilk.jpg",
+            "rating": "4.4",
+            "price": "$16.75",
+            "label": "New",
+            "users": 30
+        },
+        {
+            "name": "Goat Milk",
+            "img": "goatmilk.jpg",
+            "rating": "4.8",
+            "price": "$21.00",
+            "label": "Hot",
+            "users": 28
+        },
+        {
+            "name": "Coconut Milk",
+            "img": "coconutmilk.jpg",
+            "rating": "4.6",
+            "price": "$23.00",
+            "label": "Out of Stock",
+            "users": 15
+        },
+        {
+            "name": "Hemp Milk",
+            "img": "hempmilk.jpg",
+            "rating": "4.2",
+            "price": "$17.50",
+            "label": "10% off",
+            "users": 18
+        },
+        {
+            "name": "Cashew Milk",
+            "img": "cashewmilk.jpg",
+            "rating": "4.5",
+            "price": "$20.00",
+            "label": "Limited",
+            "users": 19
+        },
+        {
+            "name": "Macadamia Milk",
+            "img": "macadamia.jpg",
+            "rating": "4.7",
+            "price": "$24.00",
+            "label": "New",
+            "users": 23
+        },
+        {
+            "name": "Hazelnut Milk",
+            "img": "hazelnutmilk.jpg",
+            "rating": "4.4",
+            "price": "$22.50",
+            "label": "Hot",
+            "users": 21
+        },
+        {
+            "name": "Buttermilk",
+            "img": "buttermilk.jpg",
+            "rating": "4.3",
+            "price": "$18.75",
+            "label": "Out of Stock",
+            "users": 14
+        },
+        {
+            "name": "Flax Milk",
+            "img": "flaxmilk.jpg",
+            "rating": "4.6",
+            "price": "$20.50",
+            "label": "10% off",
+            "users": 26
+        },
+        {
+            "name": "Skim Milk",
+            "img": "skimmilk.jpg",
+            "rating": "4.2",
+            "price": "$14.00",
+            "label": "Limited",
+            "users": 30
+        },
+        {
+            "name": "Whole Milk",
+            "img": "wholemilk.jpg",
+            "rating": "4.8",
+            "price": "$25.00",
+            "label": "New",
+            "users": 24
+        }
+    ],
+    "drinkProducts": [
+        {
+            "name": "Rose Milk",
+            "img": "rose.jpg",
+            "rating": "4.7",
+            "price": "$22.50",
+            "label": "New",
+            "users": 18
+        },
+        {
+            "name": "Lemonade",
+            "img": "lemonade.jpg",
+            "rating": "4.5",
+            "price": "$15.00",
+            "label": "Hot",
+            "users": 25
+        },
+        {
+            "name": "Iced Coffee",
+            "img": "icedcoffee.jpg",
+            "rating": "4.6",
+            "price": "$18.00",
+            "label": "10% off",
+            "users": 22
+        },
+        {
+            "name": "Orange Juice",
+            "img": "orangejuice.jpg",
+            "rating": "4.4",
+            "price": "$12.50",
+            "label": "Limited",
+            "users": 30
+        },
+        {
+            "name": "Apple Cider",
+            "img": "applecider.jpg",
+            "rating": "4.7",
+            "price": "$16.75",
+            "label": "New",
+            "users": 20
+        },
+        {
+            "name": "Pineapple Juice",
+            "img": "pineapplejuice.jpg",
+            "rating": "4.8",
+            "price": "$19.00",
+            "label": "Hot",
+            "users": 25
+        },
+        {
+            "name": "Mango Smoothie",
+            "img": "mangosmoothie.jpg",
+            "rating": "4.9",
+            "price": "$22.00",
+            "label": "Out of Stock",
+            "users": 15
+        },
+        {
+            "name": "Strawberry Milkshake",
+            "img": "strawberrymilkshake.jpg",
+            "rating": "4.6",
+            "price": "$20.50",
+            "label": "10% off",
+            "users": 18
+        },
+        {
+            "name": "Watermelon Juice",
+            "img": "watermelonjuice.jpg",
+            "rating": "4.5",
+            "price": "$17.00",
+            "label": "Limited",
+            "users": 28
+        },
+        {
+            "name": "Ginger Ale",
+            "img": "gingerale.jpg",
+            "rating": "4.3",
+            "price": "$14.00",
+            "label": "New",
+            "users": 22
+        },
+        {
+            "name": "Cucumber Cooler",
+            "img": "cucumbercooler.jpg",
+            "rating": "4.4",
+            "price": "$15.50",
+            "label": "Hot",
+            "users": 21
+        },
+        {
+            "name": "Iced Tea",
+            "img": "icedtea.jpg",
+            "rating": "4.7",
+            "price": "$18.50",
+            "label": "Out of Stock",
+            "users": 30
+        },
+        {
+            "name": "Berry Smoothie",
+            "img": "berrysmoothie.jpg",
+            "rating": "4.6",
+            "price": "$21.00",
+            "label": "10% off",
+            "users": 19
+        },
+        {
+            "name": "Coconut Water",
+            "img": "coconutwater.jpg",
+            "rating": "4.8",
+            "price": "$23.00",
+            "label": "Limited",
+            "users": 26
+        },
+        {
+            "name": "Peach Iced Tea",
+            "img": "peachicedtea.jpg",
+            "rating": "4.3",
+            "price": "$16.00",
+            "label": "New",
+            "users": 24
+        },
+        {
+            "name": "Carrot Juice",
+            "img": "carrotjuice.jpg",
+            "rating": "4.5",
+            "price": "$14.75",
+            "label": "Hot",
+            "users": 20
+        },
+        {
+            "name": "Cherry Lemonade",
+            "img": "cherrylemonade.jpg",
+            "rating": "4.9",
+            "price": "$19.50",
+            "label": "Out of Stock",
+            "users": 17
+        },
+        {
+            "name": "Blueberry Smoothie",
+            "img": "blueberrysmoothie.jpg",
+            "rating": "4.4",
+            "price": "$22.25",
+            "label": "10% off",
+            "users": 22
+        },
+        {
+            "name": "Kiwi Juice",
+            "img": "kiwijuice.jpg",
+            "rating": "4.6",
+            "price": "$18.00",
+            "label": "Limited",
+            "users": 23
+        },
+        {
+            "name": "Tropical Punch",
+            "img": "tropicalpunch.jpg",
+            "rating": "4.5",
+            "price": "$20.75",
+            "label": "New",
+            "users": 25
+        },
+        {
+            "name": "Grapefruit Juice",
+            "img": "grapefruitjuice.jpg",
+            "rating": "4.3",
+            "price": "$13.50",
+            "label": "Hot",
+            "users": 28
+        },
+        {
+            "name": "Mint Lemonade",
+            "img": "mintlemonade.jpg",
+            "rating": "4.8",
+            "price": "$21.50",
+            "label": "Out of Stock",
+            "users": 19
+        },
+        {
+            "name": "Papaya Smoothie",
+            "img": "papayasmoothie.jpg",
+            "rating": "4.7",
+            "price": "$24.00",
+            "label": "10% off",
+            "users": 22
+        },
+        {
+            "name": "Pomegranate Juice",
+            "img": "pomegranatejuice.jpg",
+            "rating": "4.6",
+            "price": "$18.75",
+            "label": "Limited",
+            "users": 27
+        },
+        {
+            "name": "Raspberry Lemonade",
+            "img": "raspberrylemonade.jpg",
+            "rating": "4.5",
+            "price": "$19.00",
+            "label": "New",
+            "users": 21
+        },
+        {
+            "name": "Dragon Fruit Juice",
+            "img": "dragonfruitjuice.jpg",
+            "rating": "4.4",
+            "price": "$20.00",
+            "label": "Hot",
+            "users": 24
+        },
+        {
+            "name": "Matcha Smoothie",
+            "img": "matchasmoothie.jpg",
+            "rating": "4.9",
+            "price": "$25.00",
+            "label": "Out of Stock",
+            "users": 18
+        },
+        {
+            "name": "Taro Milkshake",
+            "img": "taromilkshake.jpg",
+            "rating": "4.8",
+            "price": "$23.50",
+            "label": "10% off",
+            "users": 29
+        }
+    ],
+    "teamMembers": [
+        {
+            "name": "Dane Mec",
+            "designation": "Founder & CEO",
+            "skill": "Former co-founder of Operator",
+            "projects": "Early staff at Swiggy and Clearbit.",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQi2Mm5P8j09P4hPKa1B-t9eIOHzHmR7IBkw&s"
+        },
+        {
+            "name": "Jane Doe",
+            "designation": "CTO",
+            "skill": "Expert in scalable systems",
+            "projects": "Led tech teams at Google and Amazon.",
+            "img": "data:image/jpeg;base64,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"
+        },
+        {
+            "name": "John Smith",
+            "designation": "COO",
+            "skill": "Operations and logistics specialist",
+            "projects": "Managed operations at Uber and Lyft.",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHvEGamFasFcudDxAlTzNzd2ZsSRKsmf4Uw&s"
+        },
+        {
+            "name": "Emily Davis",
+            "designation": "Head of Marketing",
+            "skill": "Branding and digital marketing",
+            "projects": "Developed campaigns for Nike and Coca-Cola.",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgtt3zOq6B9NnqaNv6ApPqWUmxmTf5hxtF_g&s"
+        },
+        {
+            "name": "Michael Brown",
+            "designation": "CFO",
+            "skill": "Financial strategy and planning",
+            "projects": "CFO at Square and Stripe.",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR72NxjSQoKsi_x0NalUcXAGf_Uq_NDOoicA&s"
+        },
+        {
+            "name": "Sarah Wilson",
+            "designation": "Head of Product",
+            "skill": "Product management and design",
+            "projects": "Led product teams at Airbnb and Dropbox.",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu_ze8ULmRywXGNzUgKEcH166XrXgTBoqQZg&s"
+        },
+        {
+            "name": "David Lee",
+            "designation": "Head of Sales",
+            "skill": "Sales strategy and execution",
+            "projects": "Sales director at Salesforce and HubSpot.",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST5_E8zk0B84qT0epQbWq54Ba9YDvrJvXDLg&s"
+        },
+        {
+            "name": "Olivia Harris",
+            "designation": "Head of HR",
+            "skill": "Talent acquisition and culture",
+            "projects": "HR lead at Facebook and Microsoft.",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmI57giWxjA-WXBTE7HIzLV0Y9YcEnxIyrCQ&s"
+        }
+    ]
+}
